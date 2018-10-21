@@ -17,17 +17,14 @@ docker build -t popub-relay .
 ```
 
 ### Usage
-`docker run -d \`
-
-` --name=popub-relay \`
-
-` --restart=always \`
-
-`-p <Receive Port>:<Receive Port> \`
-
-`-p <Exposed Port>:<Exposed Port> \`
-
-` dengrenjie31/popub-relay :<Receive Port> :<Exposed Port> <Password>`
+```
+docker run -d \
+ --name=popub-relay \
+ --restart=always \
+ -p <Receive Port>:<Receive Port> \
+ -p <Exposed Port>:<Exposed Port> \
+ dengrenjie31/popub-relay :<Receive Port> :<Exposed Port> <Password>
+```
 
 ### Parameters
 * `--name=popub-relay` You can use whatever name you want
@@ -51,13 +48,12 @@ docker build -t popub-local .
 ```
 
 ### Usage
-`docker run -d \`
-
-` --name=popub-local \`
-
-` --restart=always \`
-
-` dengrenjie31/popub-local <Local IP>:<Local Port> <Remote IP>:<Remote Port> <Password>`
+```
+docker run -d \
+ --name=popub-local \
+ --restart=always \
+ dengrenjie31/popub-local <Local IP>:<Local Port> <Remote IP>:<Remote Port> <Password>
+```
 
 ### Parameters
 * `--name=popub-local` You can use whatever name you want
