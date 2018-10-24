@@ -92,3 +92,6 @@ docker run -d \
 * `<Local Port>` Local port you want to expose to remote machine which has a public network IP
 * `<Remote IP>` Remote machine which has a public network IP.
 * `<Remote Port>` A port in remote machine to receive data sent from the local machine.
+
+## License
+The program is licensed under GNU General Public License v3.0. See [LICENSE](https://github.com/DRJ31/popub-docker/blob/master/LICENSE) for details.
