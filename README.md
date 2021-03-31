@@ -1,5 +1,7 @@
 # Popub Docker
 
+![GitHub](https://img.shields.io/github/license/DRJ31/popub-docker)
+
 ## Popub Relay
 
 ### Installation
